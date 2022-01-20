@@ -8,7 +8,7 @@ public class Main {
 		int note1 = 15;
 		int note2 = 14;
 		int note3 = 10;
-		int calcul = (note1+note2+note3)/3;
+		int calcul = note1+note2+note3/3;
 		System.out.println("la moyenne est de " + calcul);
 
 	}
