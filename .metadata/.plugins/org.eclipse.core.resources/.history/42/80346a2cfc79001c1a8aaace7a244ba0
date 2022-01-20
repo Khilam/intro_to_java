@@ -5,11 +5,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		//affectation
-	int age = 19;
-	if (age > 18) {
-		System.out.println("la personne st majeur");
+	int money = 3000;
+	if (money == 2000) {
+		System.out.println("c'est vari !");
 	}else {
-		System.out.println("la personne n'est pas majeur");
+		
+		System.out.println ("ce n'est pas vari !");
 	}
 	
 

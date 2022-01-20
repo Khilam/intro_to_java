@@ -1,0 +1,16 @@
+package fr.mouna.introductiontojava;
+
+//class principal
+public class Main {
+
+	public static void main(String[] args) {
+		//affectation
+		int note1 = 15;
+		int note2 = 14;
+		int note3 = 10;
+		int calcul = (note1+note2+note3)/3;
+		System.out.println("la moyenne est de " + calcul);
+
+	}
+
+}
