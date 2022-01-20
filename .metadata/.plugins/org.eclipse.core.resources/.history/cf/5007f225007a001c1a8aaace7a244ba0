@@ -5,8 +5,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		//affectation
-	int money = 2000;
-	int pricePhone = 1000;
+	int money = 1000;
+	int pricePhone = 1500;
 	boolean hasPhone = true;
 	
 	if (money >= pricePhone && hasPhone) {

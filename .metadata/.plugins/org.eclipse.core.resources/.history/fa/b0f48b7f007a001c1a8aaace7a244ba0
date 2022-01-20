@@ -7,9 +7,9 @@ public class Main {
 		//affectation
 	int money = 2000;
 	int pricePhone = 1000;
-	boolean hasPhone = true;
+	boolean hasPhone = false;
 	
-	if (money >= pricePhone && hasPhone) {
+	if (money >= pricePhone || hasPhone) {
 		System.out.println("tu peux acheter ce phone");	
 		}else {
 			System.out.println("tu ne peux acheter ce phone en olus tu as deja un");
