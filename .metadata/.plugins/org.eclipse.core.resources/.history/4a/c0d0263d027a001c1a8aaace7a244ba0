@@ -18,16 +18,11 @@ public class Main {
 	String name = "Mouna";
 	String[] names = {"Zied", "ZIED"
 , "Ramzi"};
-	if (names [0].equalsIgnoreCase(names [1])) {
+	if (names [0].equalsIgnoreCase(name) names[1]) {
 		System.out.println("c'est le mm");
 	}else {
 		System.out.println("ce n'est pas le mm");
 	}
-	
-	int[] numbers = { 12,7, 19};
-	int calcul = (numbers[0]+numbers[1]+numbers[2])/numbers.length;
-	
-	System.out.println(calcul);
 	
 	
 
