@@ -1,0 +1,54 @@
+package fr.mouna.introductiontojava;
+
+//class principal
+public class Main {
+
+	public static void main(String[] args) {
+		//affectation
+	int money = 2000;
+	int pricePhone = 1000;
+	boolean hasPhone = true;
+	
+	if (money >= pricePhone && hasPhone) {
+		System.out.println("tu peux acheter ce phone");	
+		}else {
+			System.out.println("tu ne peux acheter ce phone en olus tu as deja un");
+		}
+	
+	String name = "Mouna";
+	String[] names = {"Zied", "ZIED"
+, "Ramzi"};
+	if (names [0].equalsIgnoreCase(names [1])) {
+		System.out.println("c'est le mm");
+	}else {
+		System.out.println("ce n'est pas le mm");
+	}
+	
+	int[] numbers = { 12,7, 19};
+	int calcul = (numbers[0]+numbers[1]+numbers[2])/numbers.length;
+	
+	System.out.println(calcul);
+	
+	int [][] nombres = {
+			{
+				1,2,3
+			},
+			{
+				4,5,6
+			},
+			{
+				7,8,9
+			}
+			};
+	System.out.println(nombres [0][0]);
+	System.out.println(nombres [1][2]);
+	
+	String noms = "Mouna,Zied,Cyrine,Ramzi";
+	String[] nomss = noms.split(",");
+	System.out.println(nomss.length);
+			
+	
+
+	}
+
+}
