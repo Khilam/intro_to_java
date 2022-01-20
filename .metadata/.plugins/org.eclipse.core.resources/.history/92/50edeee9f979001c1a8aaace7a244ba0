@@ -4,11 +4,7 @@ package fr.mouna.introductiontojava;
 public class Main {
 
 	public static void main(String[] args) {
-		//affectation
-		String name = "Mouna";
-		int age = 17;
-		System.out.println("My name is " + name + " I am "+ age + "old");
-		System.out.println(age);
+		System.out.println("Hello java !");
 		System.out.println("Hello world with java");
 
 	}
