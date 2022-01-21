@@ -1,0 +1,9 @@
+package fr.mouna.introductiontojava;
+
+public class Mainplayer {
+	public static void mainpalyer (String [] args){
+ Player player1 = new Player();
+ 
+System.out.println("name :" + palyer1.getName());
+}
+}
