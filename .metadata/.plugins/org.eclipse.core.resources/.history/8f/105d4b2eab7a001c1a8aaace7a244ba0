@@ -1,0 +1,23 @@
+package fr.mouna.introductiontojava;
+
+public class Apple extends Fruit {
+
+	@Override
+	public void taste() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getSize() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean hasSeed() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

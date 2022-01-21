@@ -9,7 +9,7 @@ public class Main {
 		a.taste();
 		a.miam();
 		
-		PineApple pen = new PineApple();
+		PineApple pen = new PineApple("ananas");
 		pen.taste();
 		pen.miam();
 		

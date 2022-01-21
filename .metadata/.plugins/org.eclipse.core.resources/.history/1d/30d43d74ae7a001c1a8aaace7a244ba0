@@ -5,11 +5,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Apple a = new Apple();
+		Apple a = new Apple("pomme");
 		a.taste();
 		a.miam();
 		
-		PineApple pen = new PineApple();
+		PineApple pen = new PineApple("ananas");
 		pen.taste();
 		pen.miam();
 		

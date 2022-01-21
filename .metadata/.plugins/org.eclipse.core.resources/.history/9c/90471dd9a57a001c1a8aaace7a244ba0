@@ -1,0 +1,10 @@
+package fr.mouna.introductiontojava;
+
+public abstract class Fruit {
+	
+	public abstract void taste();
+	public abstract void getSize();
+	public abstract boolean hasSeed();
+	
+
+}
