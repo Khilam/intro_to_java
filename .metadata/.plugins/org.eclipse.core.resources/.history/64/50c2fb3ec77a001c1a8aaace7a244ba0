@@ -1,24 +1,22 @@
 package fr.mouna.introductiontojava;
 
-public class PineApple extends Fruit implements PeelFruit {
+public class Kiwi extends Fruit implements PeelFruit {
 
-	public PineApple() {
-		super("ananas");
+	public Kiwi(String name) {
+		super("kiwi");
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void taste() {
 		// TODO Auto-generated method stub
-		// TODO Auto-generated method stub
-				System.out.println("gout tres sucré");
-
+		System.out.println("veryyy sweet");
 	}
 
 	@Override
 	public int getSize() {
 		// TODO Auto-generated method stub
-		return 2;
+		return 3;
 	}
 
 	@Override
@@ -36,7 +34,7 @@ public class PineApple extends Fruit implements PeelFruit {
 	@Override
 	public String getSkinType() {
 		// TODO Auto-generated method stub
-		return ("hard");
+		return null;
 	}
 
 }

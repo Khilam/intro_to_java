@@ -21,7 +21,7 @@ public class Main {
 			
 			PeelFruit fruit =pen;
 		     fruit.getSkinType();
-		
+			System.out.println("type:" + getSkinType());
 		}
 		
 		

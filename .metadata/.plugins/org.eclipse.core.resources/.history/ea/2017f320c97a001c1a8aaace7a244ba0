@@ -17,11 +17,8 @@ public class Main {
 		f.taste();
 		f.miam();
 		
-		if (a instanceof PeelFruit) {
-			
-			PeelFruit fruit =pen;
-		     fruit.getSkinType();
-		
+		if (! a instanceof PeelFruit) {
+			System.out.println("no skin for this one");
 		}
 		
 		

@@ -17,13 +17,6 @@ public class Main {
 		f.taste();
 		f.miam();
 		
-		if (a instanceof PeelFruit) {
-			
-			PeelFruit fruit =pen;
-		     fruit.getSkinType();
-		
-		}
-		
 		
 		
 		

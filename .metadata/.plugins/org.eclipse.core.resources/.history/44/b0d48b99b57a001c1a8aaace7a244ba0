@@ -13,16 +13,6 @@ public class Main {
 		pen.taste();
 		pen.miam();
 		
-		Fraise f = new Fraise();
-		f.taste();
-		f.miam();
-		
-		if (a instanceof PeelFruit) {
-			
-			PeelFruit fruit =pen;
-		     fruit.getSkinType();
-		
-		}
 		
 		
 		
